@@ -1,4 +1,4 @@
-@keyframes DeslizarSection1 {
+@keyframes DeslizarSection1 { /*ANIMAÇÃO DE DESLIZAR PARA A DIREITA*/
     from {
         transform: translateX(-100%);
         opacity: 0;
@@ -9,13 +9,13 @@
     }
 }
 
-* {
+* { /*DEFINIR TUDO EM ZERO*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.Header {
+.Header { /*CABEÇALHO*/
     z-index: 1000;
     position: fixed;
     display: flex;
@@ -27,19 +27,19 @@
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.Header > img {
+.Header > img { /*LOGO NO CABEÇALHO*/
     width: 190px;
     height: auto;
 }
 
-.BotaoCategoria {
+.BotaoCategoria { /*CADA BOTÃO DE CATEGORIA DE COMIDA*/
     margin-top: 60px;
     margin-right: 15px;
     text-decoration: none;
     color: rgb(252, 165, 66);
 }
 
-.BotoesCategorias {
+.BotoesCategorias { /*DIV COM TODOS OS BOTÕES DE CATEGORIA DE COMIDA*/
     display: flex;
     font-size: 24px;
     padding: 0 2%;
@@ -47,19 +47,19 @@
 
 }
 
-.BotaoCategoria:hover {
+.BotaoCategoria:hover { /*HOVER PARA CADA BOTÃO DE CATEGORIA DE COMIDA*/
     font-size: 26px;
     color: rgb(255, 136, 0);
     border-bottom: 2px solid rgba(0, 0, 0, 0.726);
 }
 
-.Section1 {
+.Section1 { /*SECTION DAS RECEITAS MAIS POPULARES*/
     display: flex; 
     justify-content: center;
     animation: DeslizarSection1 0.8s ease-out;
 }
 
-.MaisPopulares1 {
+.MaisPopulares1 { /*DIV DAS RECEITAS MAIS POPULARES 1*/
     display: flex;
     position: absolute;
     top: 300px;
@@ -67,14 +67,14 @@
     height: 100px;
 }
 
-.ImgMaisPopulares1 {
+.ImgMaisPopulares1 { /*CADA IMAGEM DAS RECEITAS MAIS POPULARES 1*/
     width: 100%;
     height: auto;
     padding: 5px;
     border-radius: 25px;
 }
 
-.LegendaImgMaisPopulares1 {
+.LegendaImgMaisPopulares1 { /*CADA LEGENDA DAS RECEITAS MAIS POPULARES 1*/
     font-size: 25px;
     text-align: center;
     font-weight: bold;
@@ -84,7 +84,7 @@
     text-decoration-thickness: 3px;
 }
 
-.TituloMaisPopulares1 {
+.TituloMaisPopulares1 { /*TITULO DA PARTE DE RECEITAS MAIS POPULARES */
     position: absolute;
     top: 240px;
     align-items: center;
@@ -93,7 +93,7 @@
     color: rgb(255, 141, 48);
 }
 
-.MaisPopulares2 {
+.MaisPopulares2 { /*DIV DAS RECEITAS MAIS POPULARES 2*/
     display: flex;
     position: absolute;
     top: 660px;
@@ -101,14 +101,14 @@
     height: 100px;
 }
 
-.ImgMaisPopulares2 {
+.ImgMaisPopulares2 { /*CADA IMAGEM DAS RECEITAS MAIS POPULARES 2*/
     width: 100%;
     height: auto;
     padding: 5px;
     border-radius: 25px;
 }
 
-.LegendaImgMaisPopulares2 {
+.LegendaImgMaisPopulares2 { /*CADA LEGENDA DAS RECEITAS MAIS POPULARES 2*/
     font-size: 25px;
     text-align: center;
     font-weight: bold;
@@ -118,16 +118,7 @@
     text-decoration-thickness: 3px;
 }
 
-.TituloMaisPopulares2 {
-    position: absolute;
-    top: 240px;
-    align-items: center;
-    font-family: "Bebas Neue", serif;
-    font-size: 40px;
-    color: rgb(255, 141, 48);
-}
-
-.Footer {
+.Footer { /*PARTE FINAL DO SITE*/
     position: absolute;
     top: 170%;
     width: 100%;
@@ -135,7 +126,7 @@
     background-color: rgba(0, 0, 0, 0.726);
 }
 
-.TituloCreditos {
+.TituloCreditos { /*TITULO DA PARTE FINAL DO SITE*/
     display: flex;
     justify-content: center;
     color: white;
@@ -143,7 +134,7 @@
     font-size: 25px;
 }
 
-.a > a{
+.a > a{ /*LINK DA PARTE FINAL DO SITE*/
     display: flex;
     padding-left: 610px;
     text-decoration: none;
